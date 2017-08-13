@@ -1,0 +1,92 @@
+
+
+
+/*
+this css document stored all customed css coding 
+ */
+
+
+.form .error-message {
+  display: block;
+  padding: 0.375rem 0.5625rem 0.5625rem;
+  margin-top: -1px;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  font-style: italic;
+  color: #B40404;
+}
+
+.error label,
+.error label.error {
+  color: #C3232D;
+}
+
+div.message {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: normal;
+  position: relative;
+  padding: 0.875rem 1.5rem 0.875rem 20%;
+  transition: opacity 300ms ease-out 0s;
+  background-color: #DCE47E;
+  border-color: #DCE47E;
+  color: #626262;
+}
+
+div.message.error {
+  background-color: #C3232D;
+  border-color: #C3232D;
+  color: #FFF;
+}
+
+div.message:before {
+  line-height: 0px;
+  font-size: 20px;
+  height: 12px;
+  width: 12px;
+  border-radius: 15px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  left: -11px;
+  background-color: #FFF;
+  padding: 12px 14px 12px 10px;
+  content: "i";
+  color: #DCE47E;
+}
+
+div.message.error:before {
+  padding: 11px 16px 14px 7px;
+  color: #C3232D;
+  content: "x";
+}
+
+.required > label {
+ font-weight: bold;
+
+}
+.required > label:after {
+content: ' *';
+  color: #C3232D;
+}
+
+label{
+  color:#36648B;
+}
+
+.bold {
+  font-weight: bold;
+
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+
