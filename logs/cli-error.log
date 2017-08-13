@@ -1,0 +1,63 @@
+2015-10-18 04:46:24 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'localdatabase.productimages' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'productimages', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('productimages', Array)
+#2 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('productimages')
+#3 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#4 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(192): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Productimages')
+#7 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Productimages')
+#8 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('productimages', 0)
+#9 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('productimages')
+#11 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#14 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#15 C:\wamp\www\cakephp\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2015-10-18 04:47:12 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'localdatabase.productimages' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'productimages', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('productimages', Array)
+#2 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('productimages')
+#3 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#4 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(192): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Productimages')
+#7 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Productimages')
+#8 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('productimages', 0)
+#9 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('productimages')
+#11 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#14 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#15 C:\wamp\www\cakephp\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2015-10-18 10:36:42 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'localdatabase.produtsdetails' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'produtsdetails', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('produtsdetails', Array)
+#2 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('produtsdetails')
+#3 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#4 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(192): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Produtsdetails')
+#7 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Produtsdetails')
+#8 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('produtsdetails', 0)
+#9 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('produtsdetails')
+#11 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#14 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#15 C:\wamp\www\cakephp\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
